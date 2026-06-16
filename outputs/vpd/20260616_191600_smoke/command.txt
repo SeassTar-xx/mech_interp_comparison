@@ -1,0 +1,3 @@
+source /mnt/20t/xuxin/mech_interp_comparison/scripts/setup_env.sh
+export PARAM_DECOMP_OUT_DIR=/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out
+/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/bin/python <VPD paper-tag smoke scripts>

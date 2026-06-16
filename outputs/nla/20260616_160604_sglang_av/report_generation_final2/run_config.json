@@ -1,0 +1,10 @@
+{
+  "ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar",
+  "av_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av",
+  "av_dir": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_160604_sglang_av",
+  "base_model_path": "/mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct",
+  "extraction_dir": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_160604_sglang_av",
+  "output_dir": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_160604_sglang_av/report_generation_final2",
+  "project_root": "/mnt/20t/xuxin/mech_interp_comparison",
+  "report_path": "/mnt/20t/xuxin/mech_interp_comparison/reports/day1_nla_sglang_smoke_test_report.md"
+}

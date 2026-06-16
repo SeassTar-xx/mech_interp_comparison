@@ -1,0 +1,12 @@
+# Create localized VPD artifact layout
+2026-06-16T19:14:37+08:00
+{
+  "local_pd_dir": "/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/localized_runs/s-55ea3f9b",
+  "local_target_dir": "/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/localized_runs/t-9d2b8f02",
+  "pd_checkpoint_symlink": "/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/runs/s-55ea3f9b/model_400000.pth",
+  "target_checkpoint_symlink": "/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/runs/spd-t-9d2b8f02/model_step_99999.pt",
+  "config_change": {
+    "pretrained_model_name": null,
+    "pretrained_model_path": "/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/localized_runs/t-9d2b8f02/checkpoints/model_step_99999.pt"
+  }
+}

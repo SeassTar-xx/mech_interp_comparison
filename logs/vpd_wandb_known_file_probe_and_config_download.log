@@ -1,0 +1,202 @@
+# Known W&B file probe and small config download
+2026-06-16T19:00:28+08:00
+\n## final_config.yaml
+HTTP/1.1 200 Connection established
+HTTP/2 307 
+content-type: text/html; charset=utf-8
+location: https://storage.googleapis.com/wandb-production.appspot.com/goodfire/spd/s-55ea3f9b/final_config.yaml?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer%40wandb-production.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T110031Z&X-Goog-Expires=3599&X-Goog-Signature=823c710b5a65080187c2cbd25bc1060db46cbd0c96a20ad8c321d7775e7e4d9dc60cebaa0a3ccfcd3a383e63c4d54bda485540693b0341c0af878059e3c2426b13b1b5197b943d7a3befcf53eb73a071705457dc49b3ca1192df1f8844cb42d3756eb003e425c82e1c2a102835ad34eb5be8fc3979c230a0e810ce253fda1eeda5e3324cc28a7ea1ed932c7607fd437c39d91d09084a4c90032aa3b3b4fdd2d02136f911104824c338911a0651738099ede5fc0c3254e3f1cae7135d7caea4e0b9ab9063b7a51354cd66c013b4910376b38664cb6168644824d44e6ee73460f8d679c0132ab9c6c5ac2836b20f5a8dadbd035e94b8c459b8c59f1ef89c525c33&X-Goog-SignedHeaders=host&X-User=wandb&response-content-type=application%2Fx-yaml
+content-length: 990
+HTTP/1.1 200 Connection established
+HTTP/2 206 
+content-type: application/x-yaml
+x-goog-stored-content-length: 3087
+content-range: bytes 0-0/3087
+content-length: 1
+body_bytes=1
+w
+\n## experiment_config.yaml
+HTTP/1.1 200 Connection established
+HTTP/2 404 
+content-type: application/json; charset=utf-8
+content-length: 83
+body_bytes=83
+{"error":"file s-55ea3f9b/experiment_config.yaml not found while downloading file"}
+\n## model_400000.pt
+HTTP/1.1 200 Connection established
+HTTP/2 404 
+content-type: application/json; charset=utf-8
+content-length: 76
+body_bytes=76
+{"error":"file s-55ea3f9b/model_400000.pt not found while downloading file"}
+\n## model_400000.pth
+HTTP/1.1 200 Connection established
+HTTP/2 307 
+content-type: text/html; charset=utf-8
+location: https://storage.googleapis.com/wandb-production.appspot.com/goodfire/spd/s-55ea3f9b/model_400000.pth?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer%40wandb-production.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T110035Z&X-Goog-Expires=3599&X-Goog-Signature=97326e80e2a1c490c4df846a97c9d5197ee603378aa81c9cf37100f9b03496098b91734b78766434467a13f54953afab7fba3e8716871809defdf777c8b621bd490a0c264ac7bdbb1cb2c9e70750cb45ef0b1e2db052cad7b09d34572f991bae4eb9263320760ad87f76ea2a44bad458150cb5c7f8de2b9efaaba293df2589d1e84d1042052ecd68347910db7918314634769d77aef2f8f6f9ec8f01539488586fef7956653e618e7f514ab33ccc7293359bd886e91ecfd03775c50983495336f55287803e53bd09d4610972c33179f9366f2c62256ea076b482ee227dea8cf6d84ce4a6abf56c168349a8ca7841772fe9b2887f2d4fc558d7b940bfa7972517&X-Goog-SignedHeaders=host&X-User=wandb&response-content-type=application%2Foctet-stream
+content-length: 995
+HTTP/1.1 200 Connection established
+HTTP/2 206 
+content-type: application/octet-stream
+x-goog-stored-content-length: 2908595703
+content-range: bytes 0-0/2908595703
+content-length: 1
+body_bytes=1
+P
+\n## model_400000
+HTTP/1.1 200 Connection established
+HTTP/2 404 
+content-type: application/json; charset=utf-8
+content-length: 73
+body_bytes=73
+{"error":"file s-55ea3f9b/model_400000 not found while downloading file"}
+\n## model_399999.pt
+HTTP/1.1 200 Connection established
+HTTP/2 404 
+content-type: application/json; charset=utf-8
+content-length: 76
+body_bytes=76
+{"error":"file s-55ea3f9b/model_399999.pt not found while downloading file"}
+\n## model_399999.pth
+HTTP/1.1 200 Connection established
+HTTP/2 404 
+content-type: application/json; charset=utf-8
+content-length: 77
+body_bytes=77
+{"error":"file s-55ea3f9b/model_399999.pth not found while downloading file"}
+\n## training_400000.pth
+HTTP/1.1 200 Connection established
+HTTP/2 404 
+content-type: application/json; charset=utf-8
+content-length: 80
+body_bytes=80
+{"error":"file s-55ea3f9b/training_400000.pth not found while downloading file"}
+\n## training_400000.pt
+HTTP/1.1 200 Connection established
+HTTP/2 404 
+content-type: application/json; charset=utf-8
+content-length: 79
+body_bytes=79
+{"error":"file s-55ea3f9b/training_400000.pt not found while downloading file"}
+\n# Downloading final_config.yaml because range probe showed 3087 bytes
+-rw-rw-r-- 1 xuhaoming xuhaoming 3.1K Jun 16 19:00 /mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/runs/s-55ea3f9b/final_config.yaml
+\n# final_config.yaml preview
+wandb_project: spd
+wandb_run_name: null
+wandb_run_name_prefix: ''
+seed: 0
+autocast_bf16: true
+n_mask_samples: 1
+ci_config:
+  mode: global
+  fn_type: global_shared_transformer
+  hidden_dims: null
+  reader_hidden_dims: null
+  d_resid_ci_fn: null
+  block_groups: null
+  transition_attn_config: null
+  transition_hidden_dim: null
+  simple_transformer_ci_cfg:
+    d_model: 2048
+    n_blocks: 8
+    mlp_hidden_dim:
+    - 8192
+    attn_config:
+      n_heads: 16
+      max_len: 512
+      rope_base: 10000.0
+sampling: continuous
+sigmoid_type: leaky_hard
+module_info:
+- module_pattern: h.*.mlp.c_fc
+  C: 3072
+- module_pattern: h.*.mlp.down_proj
+  C: 3584
+- module_pattern: h.*.attn.q_proj
+  C: 512
+- module_pattern: h.*.attn.k_proj
+  C: 512
+- module_pattern: h.*.attn.v_proj
+  C: 1024
+- module_pattern: h.*.attn.o_proj
+  C: 1024
+identity_module_info: null
+init_spd_checkpoint: null
+use_delta_component: true
+loss_metric_configs:
+- coeff: 0.0002
+  classname: ImportanceMinimalityLoss
+  pnorm: 2.0
+  beta: 0.5
+  p_anneal_start_frac: 0.0
+  p_anneal_final_p: 0.4
+  p_anneal_end_frac: 1.0
+  eps: 1.0e-12
+- coeff: 0.5
+  classname: StochasticReconSubsetLoss
+  routing:
+    type: uniform_k_subset
+- coeff: 0.5
+  optimizer:
+    type: adam
+    beta1: 0.5
+    beta2: 0.99
+    eps: 1.0e-08
+    lr_schedule:
+      start_val: 0.01
+      warmup_pct: 0.025
+      final_val_frac: 1.0
+      fn_type: constant
+  scope:
+    type: per_batch_per_position
+  use_sigmoid_parameterization: false
+  n_warmup_steps: 2
+  classname: PersistentPGDReconLoss
+- coeff: 10000000.0
+  classname: FaithfulnessLoss
+output_loss_type: kl
+lr_schedule:
+  start_val: 5.0e-05
+  warmup_pct: 0.0
+  final_val_frac: 0.1
+  fn_type: cosine
+steps: 400000
+batch_size: 64
+grad_clip_norm_components: 0.01
+grad_clip_norm_ci_fns: null
+faithfulness_warmup_steps: 400
+faithfulness_warmup_lr: 0.001
+faithfulness_warmup_weight_decay: 0.0
+train_log_freq: 200
+eval_freq: 1000
+eval_batch_size: 128
+slow_eval_freq: 10000
+n_eval_steps: 1
+slow_eval_on_first_step: true
+save_freq: null
+eval_metric_configs:
+- classname: CIHistograms
+  n_batches_accum: 1
+- classname: ComponentActivationDensity
+- classname: CI_L0
+  groups:
+    layer_0:
+    - h.0.*
+    layer_1:
+    - h.1.*
+    layer_2:
+    - h.2.*
+    layer_3:
+    - h.3.*
+    total:
+    - '*'
+- classname: CEandKLLosses
+  rounding_threshold: 0.0
+- classname: CIMeanPerComponent
+- coeff: null
+  classname: StochasticHiddenActsReconLoss
+- classname: CIHiddenActsReconLoss
+- coeff: null
+  init: random
+  step_size: 0.1
+  n_steps: 20
+  mask_scope: shared_across_batch

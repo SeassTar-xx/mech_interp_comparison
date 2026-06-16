@@ -1,0 +1,14 @@
+# VPD paper tag RunInfo smoke test
+2026-06-16T19:08:40+08:00
+/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/lib/python3.13/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+{
+  "checkpoint": "/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/runs/s-55ea3f9b/model_400000.pth",
+  "ok": false,
+  "error": {
+    "type": "ModuleNotFoundError",
+    "message": "No module named 'wandb_gql'",
+    "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\n  File \"/mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp-vpd-paper/param_decomp/models/component_model.py\", line 15, in <module>\n    from param_decomp.interfaces import LoadableModule, RunInfo\n  File \"/mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp-vpd-paper/param_decomp/interfaces.py\", line 15, in <module>\n    from param_decomp.utils.wandb_utils import (\n    ...<4 lines>...\n    )\n  File \"/mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp-vpd-paper/param_decomp/utils/wandb_utils.py\", line 10, in <module>\n    import wandb_workspaces.reports.v2 as wr\n  File \"/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/lib/python3.13/site-packages/wandb_workspaces/reports/v2/__init__.py\", line 8, in <module>\n    from . import blocks, panels\n  File \"/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/lib/python3.13/site-packages/wandb_workspaces/reports/v2/blocks.py\", line 2, in <module>\n    from .interface import (\n    ...<24 lines>...\n    )\n  File \"/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/lib/python3.13/site-packages/wandb_workspaces/reports/v2/interface.py\", line 47, in <module>\n    from . import expr_parsing, gql, internal\n  File \"/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/lib/python3.13/site-packages/wandb_workspaces/reports/v2/gql.py\", line 3, in <module>\n    from wandb_gql import gql\nModuleNotFoundError: No module named 'wandb_gql'\n"
+  }
+}
+Saved: /mnt/20t/xuxin/mech_interp_comparison/reports/vpd_paper_tag_runinfo_smoke_test.json

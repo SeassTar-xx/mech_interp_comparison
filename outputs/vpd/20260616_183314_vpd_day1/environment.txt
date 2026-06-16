@@ -1,0 +1,6 @@
+python=Python 3.10.20
+PARAM_DECOMP_OUT_DIR=/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out
+HOME=/mnt/20t/xuxin/mech_interp_comparison/tmp/vpd-home
+HF_HOME=/mnt/20t/xuxin/mech_interp_comparison/.cache/huggingface
+XDG_CACHE_HOME=/mnt/20t/xuxin/mech_interp_comparison/.cache/xdg
+TMPDIR=/mnt/20t/xuxin/mech_interp_comparison/tmp

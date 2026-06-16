@@ -1,0 +1,33 @@
+# Local Python environments and dependency installs
+env/
+
+# Caches and temporary files
+.cache/
+tmp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# External repositories cloned for inspection; keep provenance in README/LICENSE_NOTES instead.
+repos/
+
+# Large model/checkpoint artifacts and generated artifact stores
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
+*.gguf
+outputs/vpd/param_decomp_out/
+outputs/vpd/wandb/
+
+# Local process state
+*.pid
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/

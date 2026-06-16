@@ -1,0 +1,223 @@
+{
+  "checkpoint": "/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/localized_runs/s-55ea3f9b/model_400000.pth",
+  "tokenizer_name": "EleutherAI/gpt-neox-20b",
+  "training_run_executed": false,
+  "inference_type": "single-step CPU forward on released target model inside VPD artifact",
+  "ok": true,
+  "examples": [
+    {
+      "id": "princess_crown",
+      "prompt": "The princess lost her crown.",
+      "input_token_ids": [
+        510,
+        28806,
+        3663,
+        617,
+        16834,
+        15
+      ],
+      "input_tokens": [
+        "The",
+        " princess",
+        " lost",
+        " her",
+        " crown",
+        "."
+      ],
+      "top_next_tokens": [
+        {
+          "token_id": 187,
+          "token": "\n",
+          "logit": 10.016910552978516
+        },
+        {
+          "token_id": 1500,
+          "token": " She",
+          "logit": 9.769813537597656
+        },
+        {
+          "token_id": 380,
+          "token": " The",
+          "logit": 9.270238876342773
+        },
+        {
+          "token_id": 50276,
+          "token": "  ",
+          "logit": 8.678375244140625
+        },
+        {
+          "token_id": 4058,
+          "token": " Her",
+          "logit": 8.148260116577148
+        },
+        {
+          "token_id": 754,
+          "token": " He",
+          "logit": 7.658746719360352
+        },
+        {
+          "token_id": 496,
+          "token": " In",
+          "logit": 7.605323314666748
+        },
+        {
+          "token_id": 2732,
+          "token": " After",
+          "logit": 7.552916049957275
+        },
+        {
+          "token_id": 2091,
+          "token": " When",
+          "logit": 7.541138172149658
+        },
+        {
+          "token_id": 733,
+          "token": " It",
+          "logit": 7.5365519523620605
+        }
+      ]
+    },
+    {
+      "id": "prince_crown",
+      "prompt": "The prince lost his crown.",
+      "input_token_ids": [
+        510,
+        24012,
+        3663,
+        521,
+        16834,
+        15
+      ],
+      "input_tokens": [
+        "The",
+        " prince",
+        " lost",
+        " his",
+        " crown",
+        "."
+      ],
+      "top_next_tokens": [
+        {
+          "token_id": 187,
+          "token": "\n",
+          "logit": 9.764341354370117
+        },
+        {
+          "token_id": 754,
+          "token": " He",
+          "logit": 9.58716869354248
+        },
+        {
+          "token_id": 380,
+          "token": " The",
+          "logit": 9.387672424316406
+        },
+        {
+          "token_id": 50276,
+          "token": "  ",
+          "logit": 9.254158020019531
+        },
+        {
+          "token_id": 3032,
+          "token": " His",
+          "logit": 8.31715202331543
+        },
+        {
+          "token_id": 496,
+          "token": " In",
+          "logit": 7.8173017501831055
+        },
+        {
+          "token_id": 733,
+          "token": " It",
+          "logit": 7.609256267547607
+        },
+        {
+          "token_id": 329,
+          "token": " A",
+          "logit": 7.493776321411133
+        },
+        {
+          "token_id": 2091,
+          "token": " When",
+          "logit": 7.4874725341796875
+        },
+        {
+          "token_id": 2732,
+          "token": " After",
+          "logit": 7.443857192993164
+        }
+      ]
+    },
+    {
+      "id": "delimiter",
+      "prompt": "< u , v ",
+      "input_token_ids": [
+        29,
+        1484,
+        1157,
+        362,
+        209
+      ],
+      "input_tokens": [
+        "<",
+        " u",
+        " ,",
+        " v",
+        " "
+      ],
+      "top_next_tokens": [
+        {
+          "token_id": 187,
+          "token": "\n",
+          "logit": 15.854331970214844
+        },
+        {
+          "token_id": 10689,
+          "token": ")))",
+          "logit": 13.689962387084961
+        },
+        {
+          "token_id": 3822,
+          "token": ")$.",
+          "logit": 13.501096725463867
+        },
+        {
+          "token_id": 27483,
+          "token": "))))",
+          "logit": 13.072854995727539
+        },
+        {
+          "token_id": 13941,
+          "token": ")\\,",
+          "logit": 12.980409622192383
+        },
+        {
+          "token_id": 2379,
+          "token": "\r\n",
+          "logit": 12.871703147888184
+        },
+        {
+          "token_id": 4244,
+          "token": ")$,",
+          "logit": 12.790369033813477
+        },
+        {
+          "token_id": 4932,
+          "token": "^{(",
+          "logit": 12.781213760375977
+        },
+        {
+          "token_id": 904,
+          "token": ".,",
+          "logit": 12.754034042358398
+        },
+        {
+          "token_id": 2497,
+          "token": "^{-",
+          "logit": 12.642610549926758
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+"""VPD integration namespace."""

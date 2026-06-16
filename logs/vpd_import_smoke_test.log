@@ -1,0 +1,7 @@
+python 3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]
+PARAM_DECOMP_OUT_DIR /mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out
+param_decomp OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp/__init__.py
+param_decomp_lab OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab/__init__.py
+param_decomp.component_model FAIL ImportError cannot import name 'override' from 'typing' (/mnt/8t/xhm/miniconda3/envs/EasyEdit1/lib/python3.10/typing.py)
+param_decomp_lab.infra.wandb FAIL SyntaxError invalid syntax (wandb.py, line 235)
+param_decomp_lab.experiments.lm.run FAIL ModuleNotFoundError No module named 'fire'

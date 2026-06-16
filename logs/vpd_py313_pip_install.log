@@ -1,0 +1,513 @@
+# pip install for param-decomp lab
+2026-06-16T18:50:06+08:00
+Python 3.13.14
+Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cpu
+Obtaining file:///mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Obtaining file:///mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting torch>=2.6 (from param-decomp==0.0.1)
+  Using cached torch-2.12.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (31 kB)
+Collecting pydantic<2.12 (from param-decomp==0.0.1)
+  Using cached pydantic-2.11.10-py3-none-any.whl.metadata (68 kB)
+Collecting tqdm (from param-decomp==0.0.1)
+  Using cached tqdm-4.68.2-py3-none-any.whl.metadata (58 kB)
+Collecting transformers (from param-decomp==0.0.1)
+  Using cached transformers-5.12.1-py3-none-any.whl.metadata (33 kB)
+Collecting jaxtyping (from param-decomp==0.0.1)
+  Using cached jaxtyping-0.3.11-py3-none-any.whl.metadata (6.2 kB)
+Collecting einops (from param-decomp==0.0.1)
+  Using cached einops-0.8.2-py3-none-any.whl.metadata (13 kB)
+Collecting matplotlib (from param-decomp==0.0.1)
+  Using cached matplotlib-3.11.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (80 kB)
+Collecting numpy (from param-decomp==0.0.1)
+  Using cached numpy-2.4.6-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting python-dotenv (from param-decomp==0.0.1)
+  Using cached python_dotenv-1.2.2-py3-none-any.whl.metadata (27 kB)
+Collecting datasets>=2.21.0 (from param-decomp==0.0.1)
+  Using cached datasets-5.0.0-py3-none-any.whl.metadata (23 kB)
+Collecting pillow (from param-decomp==0.0.1)
+  Using cached pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.8 kB)
+Collecting pyyaml (from param-decomp==0.0.1)
+  Using cached pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting fire (from param-decomp-lab==0.0.1)
+  Using cached fire-0.7.1-py3-none-any.whl.metadata (5.8 kB)
+Collecting wandb>=0.20.1 (from param-decomp-lab==0.0.1)
+  Using cached wandb-0.27.2-py3-none-manylinux_2_28_x86_64.whl.metadata (11 kB)
+Collecting torchvision<0.24,>=0.23 (from param-decomp-lab==0.0.1)
+  Using cached torchvision-0.23.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (6.1 kB)
+Collecting wandb-workspaces==0.1.12 (from param-decomp-lab==0.0.1)
+  Using cached wandb_workspaces-0.1.12-py3-none-any.whl.metadata (4.3 kB)
+Collecting sympy (from param-decomp-lab==0.0.1)
+  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting streamlit (from param-decomp-lab==0.0.1)
+  Using cached streamlit-1.58.0-py3-none-any.whl.metadata (9.6 kB)
+Collecting streamlit-antd-components (from param-decomp-lab==0.0.1)
+  Using cached streamlit_antd_components-0.3.2-py3-none-any.whl.metadata (2.9 kB)
+Collecting scipy>=1.14.1 (from param-decomp-lab==0.0.1)
+  Using cached scipy-1.17.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting fastapi (from param-decomp-lab==0.0.1)
+  Using cached fastapi-0.137.1-py3-none-any.whl.metadata (26 kB)
+Collecting uvicorn (from param-decomp-lab==0.0.1)
+  Using cached uvicorn-0.49.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting orjson (from param-decomp-lab==0.0.1)
+  Using cached orjson-3.11.9-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (41 kB)
+Collecting aiolimiter>=1.2 (from param-decomp-lab==0.0.1)
+  Using cached aiolimiter-1.2.1-py3-none-any.whl.metadata (4.5 kB)
+Collecting openrouter>=0.1.1 (from param-decomp-lab==0.0.1)
+  Using cached openrouter-0.9.2-py3-none-any.whl.metadata (8.5 kB)
+Collecting httpx>=0.28.0 (from param-decomp-lab==0.0.1)
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting zstandard (from param-decomp-lab==0.0.1)
+  Using cached zstandard-0.25.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.3 kB)
+Collecting kaleido==0.2.1 (from param-decomp-lab==0.0.1)
+  Using cached kaleido-0.2.1-py2.py3-none-manylinux1_x86_64.whl.metadata (15 kB)
+Collecting numba>=0.64.0 (from param-decomp-lab==0.0.1)
+  Using cached numba-0.65.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.9 kB)
+Collecting requests (from param-decomp-lab==0.0.1)
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting annotated-types>=0.6.0 (from pydantic<2.12->param-decomp==0.0.1)
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.33.2 (from pydantic<2.12->param-decomp==0.0.1)
+  Using cached pydantic_core-2.33.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting typing-extensions>=4.12.2 (from pydantic<2.12->param-decomp==0.0.1)
+  Using cached typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting typing-inspection>=0.4.0 (from pydantic<2.12->param-decomp==0.0.1)
+  Using cached typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting torch>=2.6 (from param-decomp==0.0.1)
+  Using cached torch-2.8.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (29 kB)
+Collecting filelock (from torch>=2.6->param-decomp==0.0.1)
+  Using cached filelock-3.29.4-py3-none-any.whl.metadata (2.0 kB)
+Collecting setuptools (from torch>=2.6->param-decomp==0.0.1)
+  Using cached setuptools-82.0.1-py3-none-any.whl.metadata (6.5 kB)
+Collecting networkx (from torch>=2.6->param-decomp==0.0.1)
+  Using cached networkx-3.6.1-py3-none-any.whl.metadata (6.8 kB)
+Collecting jinja2 (from torch>=2.6->param-decomp==0.0.1)
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting fsspec (from torch>=2.6->param-decomp==0.0.1)
+  Using cached fsspec-2026.6.0-py3-none-any.whl.metadata (10 kB)
+Collecting pyarrow>=21.0.0 (from datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached pyarrow-24.0.0-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+Collecting dill<0.4.2,>=0.3.0 (from datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached dill-0.4.1-py3-none-any.whl.metadata (10 kB)
+Collecting pandas (from datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached pandas-3.0.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+Collecting xxhash (from datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached xxhash-3.7.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (13 kB)
+Collecting multiprocess<0.70.20 (from datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached multiprocess-0.70.19-py313-none-any.whl.metadata (7.5 kB)
+Collecting fsspec (from torch>=2.6->param-decomp==0.0.1)
+  Using cached fsspec-2026.4.0-py3-none-any.whl.metadata (10 kB)
+Collecting huggingface-hub<2.0,>=0.25.0 (from datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached huggingface_hub-1.19.0-py3-none-any.whl.metadata (14 kB)
+Collecting packaging (from datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1 (from fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached aiohttp-3.14.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+Collecting anyio (from httpx>=0.28.0->param-decomp-lab==0.0.1)
+  Using cached anyio-4.14.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting certifi (from httpx>=0.28.0->param-decomp-lab==0.0.1)
+  Using cached certifi-2026.5.20-py3-none-any.whl.metadata (2.5 kB)
+Collecting httpcore==1.* (from httpx>=0.28.0->param-decomp-lab==0.0.1)
+  Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting idna (from httpx>=0.28.0->param-decomp-lab==0.0.1)
+  Using cached idna-3.18-py3-none-any.whl.metadata (6.1 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx>=0.28.0->param-decomp-lab==0.0.1)
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting click>=8.4.0 (from huggingface-hub<2.0,>=0.25.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached click-8.4.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting hf-xet<2.0.0,>=1.5.1 (from huggingface-hub<2.0,>=0.25.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached hf_xet-1.5.1-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+Collecting typer<0.26.0,>=0.20.0 (from huggingface-hub<2.0,>=0.25.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached typer-0.25.1-py3-none-any.whl.metadata (15 kB)
+Collecting shellingham>=1.3.0 (from typer<0.26.0,>=0.20.0->huggingface-hub<2.0,>=0.25.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich>=13.8.0 (from typer<0.26.0,>=0.20.0->huggingface-hub<2.0,>=0.25.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting annotated-doc>=0.0.2 (from typer<0.26.0,>=0.20.0->huggingface-hub<2.0,>=0.25.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached annotated_doc-0.0.4-py3-none-any.whl.metadata (6.6 kB)
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached aiohappyeyeballs-2.6.2-py3-none-any.whl.metadata (5.9 kB)
+Collecting aiosignal>=1.4.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached aiosignal-1.4.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting attrs>=17.3.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached frozenlist-1.8.0-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (20 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached multidict-6.7.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (5.3 kB)
+Collecting propcache>=0.2.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached propcache-0.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (16 kB)
+Collecting yarl<2.0,>=1.17.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached yarl-1.24.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (94 kB)
+Collecting llvmlite<0.48,>=0.47.0dev0 (from numba>=0.64.0->param-decomp-lab==0.0.1)
+  Using cached llvmlite-0.47.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.0 kB)
+Collecting jsonpath-python>=1.0.6 (from openrouter>=0.1.1->param-decomp-lab==0.0.1)
+  Using cached jsonpath_python-1.1.6-py3-none-any.whl.metadata (17 kB)
+Collecting charset_normalizer<4,>=2 (from requests->param-decomp-lab==0.0.1)
+  Using cached charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+Collecting urllib3<3,>=1.26 (from requests->param-decomp-lab==0.0.1)
+  Using cached urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer<0.26.0,>=0.20.0->huggingface-hub<2.0,>=0.25.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer<0.26.0,>=0.20.0->huggingface-hub<2.0,>=0.25.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer<0.26.0,>=0.20.0->huggingface-hub<2.0,>=0.25.0->datasets>=2.21.0->param-decomp==0.0.1)
+  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy->param-decomp-lab==0.0.1)
+  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting gitpython!=3.1.29,>=1.0.0 (from wandb>=0.20.1->param-decomp-lab==0.0.1)
+  Using cached gitpython-3.1.50-py3-none-any.whl.metadata (14 kB)
+Collecting platformdirs (from wandb>=0.20.1->param-decomp-lab==0.0.1)
+  Using cached platformdirs-4.10.0-py3-none-any.whl.metadata (5.5 kB)
+Collecting protobuf!=5.28.0,!=5.29.0,<8,>4.21.0 (from wandb>=0.20.1->param-decomp-lab==0.0.1)
+  Using cached protobuf-7.35.1-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+Collecting sentry-sdk>=2.0.0 (from wandb>=0.20.1->param-decomp-lab==0.0.1)
+  Using cached sentry_sdk-2.62.0-py3-none-any.whl.metadata (10 kB)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.29,>=1.0.0->wandb>=0.20.1->param-decomp-lab==0.0.1)
+  Using cached gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb>=0.20.1->param-decomp-lab==0.0.1)
+  Using cached smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting starlette>=0.46.0 (from fastapi->param-decomp-lab==0.0.1)
+  Using cached starlette-1.3.1-py3-none-any.whl.metadata (6.4 kB)
+Collecting termcolor (from fire->param-decomp-lab==0.0.1)
+  Using cached termcolor-3.3.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting wadler-lindig>=0.1.3 (from jaxtyping->param-decomp==0.0.1)
+  Using cached wadler_lindig-0.1.7-py3-none-any.whl.metadata (17 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch>=2.6->param-decomp==0.0.1)
+  Using cached markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Collecting contourpy>=1.0.1 (from matplotlib->param-decomp==0.0.1)
+  Using cached contourpy-1.3.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib->param-decomp==0.0.1)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib->param-decomp==0.0.1)
+  Using cached fonttools-4.63.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (118 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib->param-decomp==0.0.1)
+  Using cached kiwisolver-1.5.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.1 kB)
+Collecting pyparsing>=3 (from matplotlib->param-decomp==0.0.1)
+  Using cached pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Collecting python-dateutil>=2.7 (from matplotlib->param-decomp==0.0.1)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib->param-decomp==0.0.1)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting altair!=5.4.0,!=5.4.1,<7,>=4.0 (from streamlit->param-decomp-lab==0.0.1)
+  Using cached altair-6.2.1-py3-none-any.whl.metadata (11 kB)
+Collecting blinker<2,>=1.5.0 (from streamlit->param-decomp-lab==0.0.1)
+  Using cached blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting cachetools<8,>=5.5 (from streamlit->param-decomp-lab==0.0.1)
+  Using cached cachetools-7.1.4-py3-none-any.whl.metadata (5.5 kB)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit->param-decomp-lab==0.0.1)
+  Using cached pydeck-0.9.2-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting tenacity<10,>=8.1.0 (from streamlit->param-decomp-lab==0.0.1)
+  Using cached tenacity-9.1.4-py3-none-any.whl.metadata (1.2 kB)
+Collecting toml<2,>=0.10.1 (from streamlit->param-decomp-lab==0.0.1)
+  Using cached toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Collecting httptools>=0.6.3 (from streamlit->param-decomp-lab==0.0.1)
+  Using cached httptools-0.8.0-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (3.5 kB)
+Collecting python-multipart>=0.0.10 (from streamlit->param-decomp-lab==0.0.1)
+  Using cached python_multipart-0.0.32-py3-none-any.whl.metadata (2.1 kB)
+Collecting websockets>=12.0.0 (from streamlit->param-decomp-lab==0.0.1)
+  Using cached websockets-16.0-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.8 kB)
+Collecting itsdangerous>=2.1.2 (from streamlit->param-decomp-lab==0.0.1)
+  Using cached itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting watchdog<7,>=2.1.5 (from streamlit->param-decomp-lab==0.0.1)
+  Using cached watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->param-decomp-lab==0.0.1)
+  Using cached jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting narwhals>=2.4.0 (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->param-decomp-lab==0.0.1)
+  Using cached narwhals-2.22.1-py3-none-any.whl.metadata (15 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->param-decomp-lab==0.0.1)
+  Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->param-decomp-lab==0.0.1)
+  Using cached referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->param-decomp-lab==0.0.1)
+  Using cached rpds_py-2026.5.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+Collecting regex>=2025.10.22 (from transformers->param-decomp==0.0.1)
+  Using cached regex-2026.5.9-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+Collecting tokenizers<=0.23.0,>=0.22.0 (from transformers->param-decomp==0.0.1)
+  Using cached tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.3 kB)
+Collecting safetensors>=0.4.3 (from transformers->param-decomp==0.0.1)
+  Using cached safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+Downloading kaleido-0.2.1-py2.py3-none-manylinux1_x86_64.whl (79.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.9/79.9 MB 20.6 MB/s  0:00:04
+Downloading wandb_workspaces-0.1.12-py3-none-any.whl (84 kB)
+Downloading pydantic-2.11.10-py3-none-any.whl (444 kB)
+Downloading pydantic_core-2.33.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 14.3 MB/s  0:00:00
+Downloading torchvision-0.23.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl (1.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 4.7 MB/s  0:00:00
+Downloading torch-2.8.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl (183.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 183.9/183.9 MB 19.2 MB/s  0:00:09
+Downloading aiolimiter-1.2.1-py3-none-any.whl (6.7 kB)
+Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading datasets-5.0.0-py3-none-any.whl (555 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 555.1/555.1 kB 3.2 MB/s  0:00:00
+Downloading dill-0.4.1-py3-none-any.whl (120 kB)
+Downloading fsspec-2026.4.0-py3-none-any.whl (203 kB)
+Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Downloading huggingface_hub-1.19.0-py3-none-any.whl (693 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 693.4/693.4 kB 4.7 MB/s  0:00:00
+Downloading hf_xet-1.5.1-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 20.3 MB/s  0:00:00
+Downloading multiprocess-0.70.19-py313-none-any.whl (156 kB)
+Downloading typer-0.25.1-py3-none-any.whl (58 kB)
+Downloading aiohttp-3.14.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 12.6 MB/s  0:00:00
+Downloading multidict-6.7.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (254 kB)
+Downloading yarl-1.24.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (107 kB)
+Downloading aiohappyeyeballs-2.6.2-py3-none-any.whl (15 kB)
+Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Downloading annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Downloading click-8.4.1-py3-none-any.whl (116 kB)
+Downloading filelock-3.29.4-py3-none-any.whl (42 kB)
+Downloading frozenlist-1.8.0-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (234 kB)
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading idna-3.18-py3-none-any.whl (65 kB)
+Downloading numba-0.65.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 14.9 MB/s  0:00:00
+Downloading llvmlite-0.47.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (56.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 26.5 MB/s  0:00:02
+Downloading numpy-2.4.6-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 26.3 MB/s  0:00:00
+Downloading openrouter-0.9.2-py3-none-any.whl (660 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 660.5/660.5 kB 5.0 MB/s  0:00:00
+Downloading jsonpath_python-1.1.6-py3-none-any.whl (14 kB)
+Using cached packaging-26.2-py3-none-any.whl (100 kB)
+Downloading pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 19.9 MB/s  0:00:00
+Downloading propcache-0.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (61 kB)
+Downloading pyarrow-24.0.0-cp313-cp313-manylinux_2_28_x86_64.whl (48.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.9/48.9 MB 27.6 MB/s  0:00:01
+Downloading pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (801 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 801.6/801.6 kB 6.3 MB/s  0:00:00
+Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Downloading charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (215 kB)
+Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+Downloading certifi-2026.5.20-py3-none-any.whl (134 kB)
+Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Downloading pygments-2.20.0-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 8.6 MB/s  0:00:00
+Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading scipy-1.17.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.2/35.2 MB 28.3 MB/s  0:00:01
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 17.1 MB/s  0:00:00
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 4.1 MB/s  0:00:00
+Downloading tqdm-4.68.2-py3-none-any.whl (78 kB)
+Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Downloading typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Downloading wandb-0.27.2-py3-none-manylinux_2_28_x86_64.whl (26.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 26.4/26.4 MB 24.3 MB/s  0:00:01
+Downloading protobuf-7.35.1-cp310-abi3-manylinux2014_x86_64.whl (327 kB)
+Downloading gitpython-3.1.50-py3-none-any.whl (212 kB)
+Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+Downloading smmap-5.0.3-py3-none-any.whl (24 kB)
+Downloading sentry_sdk-2.62.0-py3-none-any.whl (490 kB)
+Downloading anyio-4.14.0-py3-none-any.whl (123 kB)
+Downloading einops-0.8.2-py3-none-any.whl (65 kB)
+Downloading fastapi-0.137.1-py3-none-any.whl (121 kB)
+Downloading starlette-1.3.1-py3-none-any.whl (73 kB)
+Downloading fire-0.7.1-py3-none-any.whl (115 kB)
+Downloading jaxtyping-0.3.11-py3-none-any.whl (56 kB)
+Downloading wadler_lindig-0.1.7-py3-none-any.whl (20 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Downloading matplotlib-3.11.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (10.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 16.7 MB/s  0:00:00
+Downloading contourpy-1.3.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (362 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.63.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.0/5.0 MB 17.9 MB/s  0:00:00
+Downloading kiwisolver-1.5.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 10.3 MB/s  0:00:00
+Downloading pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading networkx-3.6.1-py3-none-any.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 11.0 MB/s  0:00:00
+Downloading orjson-3.11.9-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (134 kB)
+Downloading pandas-3.0.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (10.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.9/10.9 MB 15.9 MB/s  0:00:00
+Downloading platformdirs-4.10.0-py3-none-any.whl (22 kB)
+Downloading python_dotenv-1.2.2-py3-none-any.whl (22 kB)
+Using cached setuptools-82.0.1-py3-none-any.whl (1.0 MB)
+Downloading streamlit-1.58.0-py3-none-any.whl (9.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.2/9.2 MB 23.8 MB/s  0:00:00
+Downloading altair-6.2.1-py3-none-any.whl (797 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 797.5/797.5 kB 6.3 MB/s  0:00:00
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading cachetools-7.1.4-py3-none-any.whl (16 kB)
+Downloading pydeck-0.9.2-py2.py3-none-any.whl (11.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 20.9 MB/s  0:00:00
+Downloading tenacity-9.1.4-py3-none-any.whl (28 kB)
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+Downloading httptools-0.8.0-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (486 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Downloading narwhals-2.22.1-py3-none-any.whl (454 kB)
+Downloading python_multipart-0.0.32-py3-none-any.whl (30 kB)
+Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+Downloading rpds_py-2026.5.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (374 kB)
+Downloading uvicorn-0.49.0-py3-none-any.whl (71 kB)
+Downloading websockets-16.0-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (184 kB)
+Downloading streamlit_antd_components-0.3.2-py3-none-any.whl (2.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 14.2 MB/s  0:00:00
+Downloading termcolor-3.3.0-py3-none-any.whl (7.7 kB)
+Downloading transformers-5.12.1-py3-none-any.whl (11.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 25.0 MB/s  0:00:00
+Downloading tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 17.6 MB/s  0:00:00
+Downloading regex-2026.5.9-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (801 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 801.3/801.3 kB 6.7 MB/s  0:00:00
+Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Downloading xxhash-3.7.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (193 kB)
+Downloading zstandard-0.25.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 20.1 MB/s  0:00:00
+Building wheels for collected packages: param-decomp, param-decomp-lab
+  Building editable for param-decomp (pyproject.toml): started
+  Building editable for param-decomp (pyproject.toml): finished with status 'done'
+  Created wheel for param-decomp: filename=param_decomp-0.0.1-0.editable-py3-none-any.whl size=5687 sha256=5683b65f25de7c8d9fdda0d31b380c18aad2bee6139f074257d88ababd627db4
+  Stored in directory: /mnt/20t/xuxin/mech_interp_comparison/tmp/pip-ephem-wheel-cache-unliewq8/wheels/b4/97/c6/1036d7fcb0fc088116f7db9b4ce24c530a41e4878ee68185c3
+  Building editable for param-decomp-lab (pyproject.toml): started
+  Building editable for param-decomp-lab (pyproject.toml): finished with status 'done'
+  Created wheel for param-decomp-lab: filename=param_decomp_lab-0.0.1-0.editable-py3-none-any.whl size=4117 sha256=68e632fc707235a81f51043b70b688de178f76ac58b85fe2553dd2e9e96cced9
+  Stored in directory: /mnt/20t/xuxin/mech_interp_comparison/tmp/pip-ephem-wheel-cache-unliewq8/wheels/1a/d7/7d/a985a0259e50927efbe858e647e1df299386a6a0bb9946f128
+Successfully built param-decomp param-decomp-lab
+Installing collected packages: mpmath, kaleido, zstandard, xxhash, websockets, watchdog, wadler-lindig, urllib3, typing-extensions, tqdm, toml, termcolor, tenacity, sympy, smmap, six, shellingham, setuptools, safetensors, rpds-py, regex, pyyaml, python-multipart, python-dotenv, pyparsing, pygments, pyarrow, protobuf, propcache, platformdirs, pillow, packaging, orjson, numpy, networkx, narwhals, multidict, mdurl, MarkupSafe, llvmlite, kiwisolver, jsonpath-python, itsdangerous, idna, httptools, hf-xet, h11, fsspec, frozenlist, fonttools, filelock, einops, dill, cycler, click, charset_normalizer, certifi, cachetools, blinker, attrs, annotated-types, annotated-doc, aiolimiter, aiohappyeyeballs, yarl, uvicorn, typing-inspection, sentry-sdk, scipy, requests, referencing, python-dateutil, pydantic-core, numba, multiprocess, markdown-it-py, jinja2, jaxtyping, httpcore, gitdb, fire, contourpy, anyio, aiosignal, torch, starlette, rich, pydeck, pydantic, pandas, matplotlib, jsonschema-specifications, httpx, gitpython, aiohttp, wandb, typer, torchvision, openrouter, jsonschema, fastapi, wandb-workspaces, huggingface-hub, altair, tokenizers, streamlit, datasets, transformers, streamlit-antd-components, param-decomp, param-decomp-lab
+
+Successfully installed MarkupSafe-3.0.3 aiohappyeyeballs-2.6.2 aiohttp-3.14.1 aiolimiter-1.2.1 aiosignal-1.4.0 altair-6.2.1 annotated-doc-0.0.4 annotated-types-0.7.0 anyio-4.14.0 attrs-26.1.0 blinker-1.9.0 cachetools-7.1.4 certifi-2026.5.20 charset_normalizer-3.4.7 click-8.4.1 contourpy-1.3.3 cycler-0.12.1 datasets-5.0.0 dill-0.4.1 einops-0.8.2 fastapi-0.137.1 filelock-3.29.4 fire-0.7.1 fonttools-4.63.0 frozenlist-1.8.0 fsspec-2026.4.0 gitdb-4.0.12 gitpython-3.1.50 h11-0.16.0 hf-xet-1.5.1 httpcore-1.0.9 httptools-0.8.0 httpx-0.28.1 huggingface-hub-1.19.0 idna-3.18 itsdangerous-2.2.0 jaxtyping-0.3.11 jinja2-3.1.6 jsonpath-python-1.1.6 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 kaleido-0.2.1 kiwisolver-1.5.0 llvmlite-0.47.0 markdown-it-py-4.2.0 matplotlib-3.11.0 mdurl-0.1.2 mpmath-1.3.0 multidict-6.7.1 multiprocess-0.70.19 narwhals-2.22.1 networkx-3.6.1 numba-0.65.1 numpy-2.4.6 openrouter-0.9.2 orjson-3.11.9 packaging-26.2 pandas-3.0.3 param-decomp-0.0.1 param-decomp-lab-0.0.1 pillow-12.2.0 platformdirs-4.10.0 propcache-0.5.2 protobuf-7.35.1 pyarrow-24.0.0 pydantic-2.11.10 pydantic-core-2.33.2 pydeck-0.9.2 pygments-2.20.0 pyparsing-3.3.2 python-dateutil-2.9.0.post0 python-dotenv-1.2.2 python-multipart-0.0.32 pyyaml-6.0.3 referencing-0.37.0 regex-2026.5.9 requests-2.34.2 rich-15.0.0 rpds-py-2026.5.1 safetensors-0.8.0 scipy-1.17.1 sentry-sdk-2.62.0 setuptools-82.0.1 shellingham-1.5.4 six-1.17.0 smmap-5.0.3 starlette-1.3.1 streamlit-1.58.0 streamlit-antd-components-0.3.2 sympy-1.14.0 tenacity-9.1.4 termcolor-3.3.0 tokenizers-0.22.2 toml-0.10.2 torch-2.8.0+cpu torchvision-0.23.0+cpu tqdm-4.68.2 transformers-5.12.1 typer-0.25.1 typing-extensions-4.15.0 typing-inspection-0.4.2 urllib3-2.7.0 uvicorn-0.49.0 wadler-lindig-0.1.7 wandb-0.27.2 wandb-workspaces-0.1.12 watchdog-6.0.0 websockets-16.0 xxhash-3.7.0 yarl-1.24.2 zstandard-0.25.0
+Package                   Version     Editable project location
+------------------------- ----------- -------------------------------------------------------------------------
+aiohappyeyeballs          2.6.2
+aiohttp                   3.14.1
+aiolimiter                1.2.1
+aiosignal                 1.4.0
+altair                    6.2.1
+annotated-doc             0.0.4
+annotated-types           0.7.0
+anyio                     4.14.0
+attrs                     26.1.0
+blinker                   1.9.0
+cachetools                7.1.4
+certifi                   2026.5.20
+charset-normalizer        3.4.7
+click                     8.4.1
+contourpy                 1.3.3
+cycler                    0.12.1
+datasets                  5.0.0
+dill                      0.4.1
+einops                    0.8.2
+fastapi                   0.137.1
+filelock                  3.29.4
+fire                      0.7.1
+fonttools                 4.63.0
+frozenlist                1.8.0
+fsspec                    2026.4.0
+gitdb                     4.0.12
+GitPython                 3.1.50
+h11                       0.16.0
+hf-xet                    1.5.1
+httpcore                  1.0.9
+httptools                 0.8.0
+httpx                     0.28.1
+huggingface_hub           1.19.0
+idna                      3.18
+itsdangerous              2.2.0
+jaxtyping                 0.3.11
+Jinja2                    3.1.6
+jsonpath-python           1.1.6
+jsonschema                4.26.0
+jsonschema-specifications 2025.9.1
+kaleido                   0.2.1
+kiwisolver                1.5.0
+llvmlite                  0.47.0
+markdown-it-py            4.2.0
+MarkupSafe                3.0.3
+matplotlib                3.11.0
+mdurl                     0.1.2
+mpmath                    1.3.0
+multidict                 6.7.1
+multiprocess              0.70.19
+narwhals                  2.22.1
+networkx                  3.6.1
+numba                     0.65.1
+numpy                     2.4.6
+openrouter                0.9.2
+orjson                    3.11.9
+packaging                 26.2
+pandas                    3.0.3
+param-decomp              0.0.1       /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp
+param-decomp-lab          0.0.1       /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab
+pillow                    12.2.0
+pip                       26.1.2
+platformdirs              4.10.0
+propcache                 0.5.2
+protobuf                  7.35.1
+pyarrow                   24.0.0
+pydantic                  2.11.10
+pydantic_core             2.33.2
+pydeck                    0.9.2
+Pygments                  2.20.0
+pyparsing                 3.3.2
+python-dateutil           2.9.0.post0
+python-dotenv             1.2.2
+python-multipart          0.0.32
+PyYAML                    6.0.3
+referencing               0.37.0
+regex                     2026.5.9
+requests                  2.34.2
+rich                      15.0.0
+rpds-py                   2026.5.1
+safetensors               0.8.0
+scipy                     1.17.1
+sentry-sdk                2.62.0
+setuptools                82.0.1
+shellingham               1.5.4
+six                       1.17.0
+smmap                     5.0.3
+starlette                 1.3.1
+streamlit                 1.58.0
+streamlit-antd-components 0.3.2
+sympy                     1.14.0
+tenacity                  9.1.4
+termcolor                 3.3.0
+tokenizers                0.22.2
+toml                      0.10.2
+torch                     2.8.0+cpu
+torchvision               0.23.0+cpu
+tqdm                      4.68.2
+transformers              5.12.1
+typer                     0.25.1
+typing_extensions         4.15.0
+typing-inspection         0.4.2
+urllib3                   2.7.0
+uvicorn                   0.49.0
+wadler_lindig             0.1.7
+wandb                     0.27.2
+wandb-workspaces          0.1.12
+watchdog                  6.0.0
+websockets                16.0
+xxhash                    3.7.0
+yarl                      1.24.2
+zstandard                 0.25.0

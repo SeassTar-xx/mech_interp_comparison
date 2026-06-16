@@ -1,0 +1,1 @@
+/mnt/8t/xhm/miniconda3/envs/EasyEdit1/bin/python -m sglang.launch_server --model-path /mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av --host 127.0.0.1 --port 30120 --disable-radix-cache --disable-cuda-graph --disable-piecewise-cuda-graph --attention-backend triton --sampling-backend pytorch --mem-fraction-static 0.65 --context-length 512 --trust-remote-code

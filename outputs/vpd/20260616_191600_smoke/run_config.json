@@ -1,0 +1,11 @@
+{
+  "method": "VPD",
+  "paper_tag_repo": "/mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp-vpd-paper",
+  "paper_tag_commit": "74146b555f3eb3cd2bc639c3789fd3b7a099094a",
+  "main_repo_commit": "1130c1fe66e7d526aadd169c2d2293bfa374863a",
+  "python_env": "/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313",
+  "pd_checkpoint": "/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/runs/s-55ea3f9b/model_400000.pth",
+  "target_checkpoint": "/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/runs/spd-t-9d2b8f02/model_step_99999.pt",
+  "training_run_executed": false,
+  "full_vpd_training_executed": false
+}

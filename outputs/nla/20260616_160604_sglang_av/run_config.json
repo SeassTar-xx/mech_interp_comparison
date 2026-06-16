@@ -1,0 +1,9 @@
+{
+  "activation_file": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_160604_sglang_av/activations_layer20_last_token.npz",
+  "ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar",
+  "device": "cuda:0",
+  "nla_explanations": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_160604_sglang_av/nla_explanations.jsonl",
+  "output_dir": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_160604_sglang_av",
+  "project_root": "/mnt/20t/xuxin/mech_interp_comparison",
+  "repo_path": "/mnt/20t/xuxin/mech_interp_comparison/repos/nla-inference"
+}

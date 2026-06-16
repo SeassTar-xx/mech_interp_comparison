@@ -1,0 +1,8 @@
+{
+  "av_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av",
+  "fallback": "transformers_inputs_embeds",
+  "processed_count": 16,
+  "sglang_status": "blocked_by_cuda_11_8_flashinfer_jit",
+  "stage": "nla_av_transformers_smoke_test",
+  "status": "ok"
+}

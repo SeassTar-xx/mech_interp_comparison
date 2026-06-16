@@ -1,0 +1,42 @@
+# VPD external access checks
+2026-06-16T18:28:02+08:00
+WANDB_API_KEY_set=no
+curl_run_page_status
+HTTP/1.1 200 Connection established
+
+HTTP/2 200 
+x-powered-by: Express
+set-cookie: host_session_id=00e4694f-1d31-4e68-8fd9-316f1fb34a92; Max-Age=31536000; Domain=wandb.ai; Path=/; Expires=Wed, 16 Jun 2027 10:28:02 GMT; Secure; SameSite=None
+document-policy: js-profiling
+content-type: text/html; charset=utf-8
+content-length: 3856
+etag: W/"f10-EczoJ9Sz363nQ9U8ZfFB1KY5oUI"
+date: Tue, 16 Jun 2026 10:28:02 GMT
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+curl_api_files_status
+HTTP/1.1 200 Connection established
+
+HTTP/2 405 
+vary: Origin
+x-wandb-trace-id: c5bfbd85a27f04ee6a1fd72051bad8af
+date: Tue, 16 Jun 2026 10:28:03 GMT
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+curl_api_files_get_prefix
+HTTP/1.1 200 Connection established
+
+HTTP/2 404 
+content-type: application/json; charset=utf-8
+vary: Origin
+x-content-type-options: nosniff
+x-wandb-trace-id: b08ed4acc25c369bc7628fabd99883c1
+date: Tue, 16 Jun 2026 10:28:22 GMT
+content-length: 69
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+body_bytes=69
+{"error":"file h7nbs2rt/s-55ea3f9b not found while downloading file"}

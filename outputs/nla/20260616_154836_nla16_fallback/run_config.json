@@ -1,0 +1,10 @@
+{
+  "ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar",
+  "av_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av",
+  "av_dir": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_154836_nla16_fallback",
+  "base_model_path": "/mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct",
+  "extraction_dir": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_154836_nla16_fallback",
+  "output_dir": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_154836_nla16_fallback",
+  "project_root": "/mnt/20t/xuxin/mech_interp_comparison",
+  "report_path": "/mnt/20t/xuxin/mech_interp_comparison/reports/day1_nla_16prompt_fallback_report.md"
+}

@@ -1,0 +1,50 @@
+# Public W&B file URL HEAD probe
+2026-06-16T18:58:54+08:00
+\n## https://wandb.ai/goodfire/spd/runs/s-55ea3f9b/files/final_config.yaml
+HTTP/1.1 200 Connection established
+
+HTTP/2 200 
+x-powered-by: Express
+set-cookie: host_session_id=d1750bed-1721-43db-b437-b6c593c00efb; Max-Age=31536000; Domain=wandb.ai; Path=/; Expires=Wed, 16 Jun 2027 10:58:55 GMT; Secure; SameSite=None
+document-policy: js-profiling
+content-type: text/html; charset=utf-8
+content-length: 3904
+etag: W/"f40-ehsC+xxWg4m2PqG8/UHVornEJps"
+date: Tue, 16 Jun 2026 10:58:55 GMT
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+\n## https://wandb.ai/goodfire/spd/runs/s-55ea3f9b/files/model_400000.pt
+HTTP/1.1 200 Connection established
+
+HTTP/2 200 
+x-powered-by: Express
+set-cookie: host_session_id=265dba1c-a9a0-40df-809a-2f13453fbede; Max-Age=31536000; Domain=wandb.ai; Path=/; Expires=Wed, 16 Jun 2027 10:58:55 GMT; Secure; SameSite=None
+document-policy: js-profiling
+content-type: text/html; charset=utf-8
+content-length: 3900
+etag: W/"f3c-5uUrUpH0ZpFxJkw/nGwIxj1PrLk"
+date: Tue, 16 Jun 2026 10:58:55 GMT
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+\n## https://api.wandb.ai/files/goodfire/spd/s-55ea3f9b/final_config.yaml
+HTTP/1.1 200 Connection established
+
+HTTP/2 405 
+vary: Origin
+x-wandb-trace-id: 7e11db83c39b9278b379d81c892c7680
+date: Tue, 16 Jun 2026 10:58:56 GMT
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+\n## https://api.wandb.ai/files/goodfire/spd/s-55ea3f9b/model_400000.pt
+HTTP/1.1 200 Connection established
+
+HTTP/2 405 
+vary: Origin
+x-wandb-trace-id: f28614aea529a3f44c135f0e8fa17ad7
+date: Tue, 16 Jun 2026 10:58:57 GMT
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

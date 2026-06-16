@@ -1,0 +1,1 @@
+/mnt/20t/xuxin/mech_interp_comparison/scripts/nla_check_artifacts.py --output-dir /mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_151906_post_download_check

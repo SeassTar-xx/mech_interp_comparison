@@ -1,0 +1,7 @@
+{
+  "max_depth": 8,
+  "model_root": "/mnt/20t/xuhaoming/models",
+  "output_dir": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_151906_post_download_check",
+  "project_root": "/mnt/20t/xuxin/mech_interp_comparison",
+  "report_path": "/mnt/20t/xuxin/mech_interp_comparison/reports/nla_local_artifact_report.md"
+}

@@ -1,0 +1,11 @@
+# VPD Python 3.13 import smoke test
+2026-06-16T18:54:37+08:00
+Python 3.13.14
+param_decomp OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp/__init__.py
+param_decomp.component_model OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp/component_model.py
+param_decomp_lab OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab/__init__.py
+param_decomp_lab.infra.run_files OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab/infra/run_files.py
+param_decomp_lab.infra.wandb OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab/infra/wandb.py
+param_decomp_lab.experiments.lm.run FAIL ImportError: cannot import name 'configure_http_backend' from 'huggingface_hub' (/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/lib/python3.13/site-packages/huggingface_hub/__init__.py)
+param_decomp_lab.component_model_io OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab/component_model_io.py
+# CLI entry paths

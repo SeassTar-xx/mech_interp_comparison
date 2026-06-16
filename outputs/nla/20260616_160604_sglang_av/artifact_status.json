@@ -1,0 +1,20 @@
+{
+  "ar_available": true,
+  "ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar",
+  "av_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av",
+  "av_method": "sglang_input_embeds",
+  "download_performed": false,
+  "processed_count": 16,
+  "server_started_by_script": false,
+  "sglang_fix_applied": [
+    "Use project-local CUDA 13 toolchain from env/nla_pydeps/nvidia/cu13",
+    "Set NVCC_PREPEND_FLAGS=-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK for FlashInfer CCCL compatibility check",
+    "Add project-local CUDA lib64/libcudart symlink compatibility",
+    "Expose vendored CCCL libcudacxx headers via CPATH/CPLUS_INCLUDE_PATH for SGLang tvm-ffi rope JIT"
+  ],
+  "sglang_run_dir": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_160604_sglang_av",
+  "sglang_server_stopped": true,
+  "sglang_status": "ok",
+  "stage": "nla_av_smoke_test",
+  "status": "ok"
+}

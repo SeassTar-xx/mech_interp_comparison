@@ -1,0 +1,11 @@
+{
+  "category_counts": {
+    "bias_stereotype": 4,
+    "evaluation_awareness": 3,
+    "safety_refusal": 5,
+    "sycophancy": 4
+  },
+  "count": 16,
+  "input": "/mnt/20t/xuxin/mech_interp_comparison/data/mini_prompts/nla_mini_safety_bias_sycophancy.jsonl",
+  "output": "/mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_144438_day1_nla/mini_prompts.jsonl"
+}

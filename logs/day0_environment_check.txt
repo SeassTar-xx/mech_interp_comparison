@@ -1,0 +1,52 @@
+PWD=/home/xuhaoming
+HOSTNAME=mistral
+WHOAMI=xuhaoming
+DF_MNT_20T_START
+文件系统        大小  已用  可用 已用% 挂载点
+/dev/sdb1        19T  7.5T  9.8T   44% /mnt/20t
+DF_MNT_20T_END
+NVIDIA_SMI_SUMMARY
+NVIDIA-SMI 590.48.01
+Driver Version: 590.48.01
+CUDA Version: 13.1
+GPU 0: NVIDIA A100-PCIE-40GB, 10MiB / 40960MiB, 0% GPU-Util
+GPU 1: NVIDIA A100-PCIE-40GB, 13MiB / 40960MiB, 0% GPU-Util
+Processes: Xorg only on GPU 0 and GPU 1
+LS_MODELS_HEAD
+.qwen2-vl-7b-modelscope-tmp
+Qwen2.5-1.5B-Instruct
+Qwen2.5-7B-Instruct
+Qwen3-30B-A3B-Instruct-2507
+Qwen3-30B-A3B-Thinking-2507
+Qwen3-4B-Instruct-2507
+Qwen3-VL-4B-Instruct
+Qwen3.5-9B
+qwen2-vl-7b
+MODEL_ENTRY_COUNT=9
+PYTHON_VERSION=bash: python: command not found
+WHICH_PYTHON=
+CONDA_ENV_LIST=conda not found
+UV_VERSION=uv not found
+GIT_VERSION=git version 2.34.1
+
+RECHECK_2026_06_16
+DEFAULT_PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+DEFAULT_PYTHON=not found
+DEFAULT_PYTHON3=/usr/bin/python3
+DEFAULT_CONDA=not found
+CONDA_BASE=/mnt/8t/xhm/miniconda3
+EASYEDIT1_PYTHON=/mnt/8t/xhm/miniconda3/envs/EasyEdit1/bin/python
+EASYEDIT1_PYTHON_VERSION=3.10.20
+EASYEDIT1_TORCH=2.9.1+cu128
+EASYEDIT1_TRANSFORMERS=5.5.4
+EASYEDIT1_ACCELERATE=1.13.0
+EASYEDIT1_DATASETS=4.8.5
+EASYEDIT1_HUGGINGFACE_HUB=1.17.0
+EASYEDIT1_NUMPY=2.2.6
+EASYEDIT1_PANDAS=2.3.3
+EASYEDIT1_SKLEARN=1.7.2
+TORCH_CUDA_AVAILABLE=True
+TORCH_CUDA_DEVICE_COUNT=2
+TORCH_CUDA_DEVICE_0=NVIDIA A100-PCIE-40GB
+QWEN25_7B_INSTRUCT=/mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct
+QWEN25_7B_INSTRUCT_STATUS=found

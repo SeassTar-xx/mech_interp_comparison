@@ -1,0 +1,65 @@
+# Target pretrain run file size probe
+2026-06-16T19:11:57+08:00
+\n## final_config.yaml
+HTTP/1.1 200 Connection established
+HTTP/2 307 
+content-type: text/html; charset=utf-8
+location: https://storage.googleapis.com/wandb-production.appspot.com/goodfire/spd/t-9d2b8f02/final_config.yaml?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer%40wandb-production.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T111158Z&X-Goog-Expires=3599&X-Goog-Signature=9aa93d7270c20f8e31a64bbb18292e8c596a6ab5fbba42fa37b1715c8c76d0f57f1412a68ce0fbde4643ceaba5b9d3351933ac2c4a72985914ffad6e0e7ebaec064e092b57a3e2b655127c5fa7774815047db4d17c8e6e8c750a2e40f1744255597b2886cfad4a168aecd644744e71c40cc3e58a96abe0e6f8a0927c5ff584b9376dd5a6beef7c6f29c5333e4480ac71d460f9b7b6c8b96e9e3dab14af1b061414340e9f088593fb9836aeb939887c5f4f9325da2fcddab224545d74fe9dae9719e296c993faee9c2c200749437bab3d98ffd23b56f445d07391e4fc6434391049e0fc5860140681a26560f79fffccb4b07c5086661ff20cf60859005442e264&X-Goog-SignedHeaders=host&X-User=wandb&response-content-type=application%2Fx-yaml
+content-length: 990
+HTTP/1.1 200 Connection established
+HTTP/2 206 
+content-type: application/x-yaml
+x-goog-stored-content-length: 1318
+content-range: bytes 0-0/1318
+content-length: 1
+body_bytes=1
+b
+\n## model_step_99999.pt
+HTTP/1.1 200 Connection established
+HTTP/2 307 
+content-type: text/html; charset=utf-8
+location: https://storage.googleapis.com/wandb-production.appspot.com/goodfire/spd/t-9d2b8f02/model_step_99999.pt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer%40wandb-production.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T111200Z&X-Goog-Expires=3599&X-Goog-Signature=3078e3413343368e8cd876bcd1c55204858252c4066017e1e083751977e24b945ed8af6508e9f88911c53a67052fa1c54c7774915c3476b54a328eb8761114ace13bdd230b32af73f8b54d8d5be09007ef3db926ac7c93c924c0062293fcb1e8f62ea28b5928fa5a7ce5333657aab3d3a8ef4941f39d18d43a781e194d64cf4006ca963c365a9f29d572950acc9536f8caa1f6e3ecc4096b1d950e51692ce8fd9c039157e48cbca9b1a02a2e01191df0dc5bca2fa795e3d1ec529a6ccde003971dcaf157df32017f1214e80613e144243131c99b69a2dbaa830e679abd200dd2ca27538c25af974a0f154e86775165e29ccb9c56a002aebf4de5cf1b40bedfdf&X-Goog-SignedHeaders=host&X-User=wandb&response-content-type=application%2Foctet-stream
+content-length: 998
+HTTP/1.1 200 Connection established
+HTTP/2 206 
+content-type: application/octet-stream
+x-goog-stored-content-length: 267736421
+content-range: bytes 0-0/267736421
+content-length: 1
+body_bytes=1
+P
+\n## model_step_99999.pth
+HTTP/1.1 200 Connection established
+HTTP/2 404 
+content-type: application/json; charset=utf-8
+content-length: 81
+body_bytes=81
+{"error":"file t-9d2b8f02/model_step_99999.pth not found while downloading file"}
+\n## model_99999.pt
+HTTP/1.1 200 Connection established
+HTTP/2 404 
+content-type: application/json; charset=utf-8
+content-length: 75
+body_bytes=75
+{"error":"file t-9d2b8f02/model_99999.pt not found while downloading file"}
+\n## model_99999.pth
+HTTP/1.1 200 Connection established
+HTTP/2 404 
+content-type: application/json; charset=utf-8
+content-length: 76
+body_bytes=76
+{"error":"file t-9d2b8f02/model_99999.pth not found while downloading file"}
+\n## model_config.yaml
+HTTP/1.1 200 Connection established
+HTTP/2 307 
+content-type: text/html; charset=utf-8
+location: https://storage.googleapis.com/wandb-production.appspot.com/goodfire/spd/t-9d2b8f02/model_config.yaml?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer%40wandb-production.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T111204Z&X-Goog-Expires=3599&X-Goog-Signature=8d28d298920dbd465f5147691235f8f73aff30babb5008fbca2d7c92ea4374e761f7346884ae35bcd4a34bff6b9960203f83c032c133bfaa8f886fb3febeab3810ef44c5a6772614f2ff8ecb1dc944707c5e47434a6ed5fd6f454503513fafc76bfe195b426ad396c3fff1b69facb339d2074094821dc0c03f2fa68901d7bc9fa6772dd33750d1cc68347cb7d5836239e41843996b5a68b3f9c5d678613f946edf88506ce9c10a0e2153b03249ad9e05ae95791753e1e3e354606403fc176d41ca60a05d118a735b2789fd09bc83a5f8823ae71221a702cad631cb92c97b2a70ecda9ef97fc034c9f484784b398226d3e23b99f50186c9157746e9b7f4c6da6f&X-Goog-SignedHeaders=host&X-User=wandb&response-content-type=application%2Fx-yaml
+content-length: 990
+HTTP/1.1 200 Connection established
+HTTP/2 206 
+content-type: application/x-yaml
+x-goog-stored-content-length: 323
+content-range: bytes 0-0/323
+content-length: 1
+body_bytes=1
+a

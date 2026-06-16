@@ -1,0 +1,6 @@
+# Python 3.13 availability check
+2026-06-16T18:31:16+08:00
+python3.13: not found
+python3.13m: not found
+uv: not found
+conda: not found

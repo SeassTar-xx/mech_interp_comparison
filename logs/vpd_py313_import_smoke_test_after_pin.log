@@ -1,0 +1,20 @@
+# VPD Python 3.13 import smoke test after dependency pin
+2026-06-16T18:56:33+08:00
+Python 3.13.14
+/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/lib/python3.13/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+param_decomp OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp/__init__.py
+param_decomp.component_model OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp/component_model.py
+param_decomp_lab OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab/__init__.py
+param_decomp_lab.infra.run_files OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab/infra/run_files.py
+param_decomp_lab.infra.wandb OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab/infra/wandb.py
+param_decomp_lab.experiments.lm.run OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab/experiments/lm/run.py
+param_decomp_lab.component_model_io OK /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp/param_decomp_lab/component_model_io.py
+# CLI entry paths
+/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/bin/pd-tms
+/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/bin/pd-resid-mlp
+/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/bin/pd-lm
+/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/bin/pd-lm-layerwise
+/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/bin/pd-pretrain
+/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/bin/pd-postprocess
+/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/bin/pd-graph-interp

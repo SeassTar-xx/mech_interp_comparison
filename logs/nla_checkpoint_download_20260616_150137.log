@@ -1,0 +1,14 @@
+HF_HOME /mnt/20t/xuxin/mech_interp_comparison/.cache/huggingface
+HF_HUB_CACHE /mnt/20t/xuxin/mech_interp_comparison/.cache/huggingface/hub
+TMPDIR /mnt/20t/xuxin/mech_interp_comparison/tmp
+PROXY http://127.0.0.1:7892
+START kitft/nla-qwen2.5-7b-L20-av -> /mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av
+/mnt/8t/xhm/miniconda3/envs/EasyEdit1/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py:189: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
+  warnings.warn(
+Fetching 18 files:   0%|          | 0/18 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 18 files:   6%|▌         | 1/18 [00:00<00:08,  1.91it/s]Fetching 18 files:  11%|█         | 2/18 [00:01<00:08,  1.94it/s]Fetching 18 files:  33%|███▎      | 6/18 [00:01<00:03,  3.93it/s]Fetching 18 files:  44%|████▍     | 8/18 [00:02<00:02,  3.96it/s]Fetching 18 files:  50%|█████     | 9/18 [09:50<17:52, 119.15s/it]Fetching 18 files: 100%|██████████| 18/18 [09:50<00:00, 32.79s/it]
+DONE kitft/nla-qwen2.5-7b-L20-av path=/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av elapsed_sec=591.0
+START kitft/nla-qwen2.5-7b-L20-ar -> /mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar
+Fetching 18 files:   0%|          | 0/18 [00:00<?, ?it/s]Fetching 18 files:   6%|▌         | 1/18 [00:01<00:24,  1.44s/it]Fetching 18 files:  28%|██▊       | 5/18 [00:02<00:04,  2.76it/s]Fetching 18 files:  33%|███▎      | 6/18 [00:02<00:04,  2.82it/s]Fetching 18 files:  44%|████▍     | 8/18 [00:03<00:03,  2.99it/s]Fetching 18 files:  50%|█████     | 9/18 [06:59<13:53, 92.65s/it]Fetching 18 files: 100%|██████████| 18/18 [06:59<00:00, 23.28s/it]
+DONE kitft/nla-qwen2.5-7b-L20-ar path=/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar elapsed_sec=419.9
+ALL_DONE

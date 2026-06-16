@@ -1,0 +1,17 @@
+{
+  "vpd_main_repo_cloned": true,
+  "vpd_main_commit": "1130c1fe66e7d526aadd169c2d2293bfa374863a",
+  "vpd_paper_tag_worktree": "/mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp-vpd-paper",
+  "vpd_paper_tag_commit": "74146b555f3eb3cd2bc639c3789fd3b7a099094a",
+  "python313_env_created": true,
+  "param_decomp_import_ok": true,
+  "canonical_pd_config_downloaded": true,
+  "canonical_pd_checkpoint_downloaded": true,
+  "canonical_pd_checkpoint_size_bytes": 2908595703,
+  "target_pretrain_artifacts_downloaded": true,
+  "target_pretrain_checkpoint_size_bytes": 267736421,
+  "component_model_load_ok": true,
+  "pronoun_prediction_smoke_ok": true,
+  "training_run_executed": false,
+  "large_lm_downloaded": false
+}

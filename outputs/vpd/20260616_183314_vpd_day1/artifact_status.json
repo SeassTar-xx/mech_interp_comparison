@@ -1,0 +1,17 @@
+{
+  "canonical_page_http_200_observed": true,
+  "canonical_run": "goodfire/spd/runs/s-55ea3f9b",
+  "commit": "1130c1fe66e7d526aadd169c2d2293bfa374863a",
+  "download_performed": false,
+  "install_dry_run_ok": false,
+  "license": "MIT License",
+  "local_vpd_checkpoint_found": false,
+  "python": "Python 3.10.20",
+  "repo_cloned": true,
+  "repo_url": "https://github.com/goodfire-ai/param-decomp",
+  "requires_python_core": "==3.13.*",
+  "requires_python_lab": "==3.13.*",
+  "safe_smoke_status": "blocked_by_python_3_13_and_missing_artifact",
+  "training_run_executed": false,
+  "wandb_api_key_set": false
+}

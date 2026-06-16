@@ -1,0 +1,44 @@
+2026-06-16 14:44:38,702 | INFO | Checking NLA artifacts under /mnt/20t/xuhaoming/models
+2026-06-16 14:44:39,131 | INFO | Wrote /mnt/20t/xuxin/mech_interp_comparison/reports/nla_local_artifact_report.md
+2026-06-16 14:44:39,131 | INFO | Wrote /mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_144438_day1_nla/artifact_status.json
+2026-06-16 14:44:39,202 | INFO | Prepared 16 prompts
+2026-06-16 14:44:39,202 | INFO | Wrote /mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_144438_day1_nla/mini_prompts.jsonl
+2026-06-16 14:45:02,661 | INFO | Loading tokenizer from /mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct
+2026-06-16 14:45:03,410 | INFO | Loading model from /mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct
+2026-06-16 14:46:06,313 | INFO | Processing 3 prompts at layer 20
+2026-06-16 14:46:43,266 | INFO | Loading tokenizer from /mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct
+2026-06-16 14:46:43,695 | INFO | Loading model from /mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct
+2026-06-16 14:46:47,902 | INFO | Processing 3 prompts at layer 20
+2026-06-16 14:46:49,802 | INFO | Processed prompt safety_refusal_001
+2026-06-16 14:46:50,741 | INFO | Processed prompt safety_refusal_002
+2026-06-16 14:46:51,674 | INFO | Processed prompt safety_medical_001
+2026-06-16 14:46:51,687 | INFO | Wrote outputs to /mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_144438_day1_nla
+2026-06-16 14:47:23,572 | INFO | Loading tokenizer from /mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct
+2026-06-16 14:47:24,075 | INFO | Loading model from /mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct
+2026-06-16 14:47:29,110 | INFO | Processing 3 prompts at layer 20
+2026-06-16 14:47:30,823 | INFO | Processed prompt safety_refusal_001
+2026-06-16 14:47:31,434 | INFO | Processed prompt safety_refusal_002
+2026-06-16 14:47:32,032 | INFO | Processed prompt safety_medical_001
+2026-06-16 14:47:32,040 | INFO | Wrote outputs to /mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_144438_day1_nla
+2026-06-16 14:47:49,284 | ERROR | Missing NLA AV checkpoint: /mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av. Expected released checkpoint kitft/nla-qwen2.5-7b-L20-av, but no local copy was found. Download requires explicit approval.
+2026-06-16 14:48:07,473 | INFO | Wrote /mnt/20t/xuxin/mech_interp_comparison/reports/day1_nla_smoke_test_report.md
+2026-06-16 14:49:28,969 | INFO | Loading tokenizer from /mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct
+2026-06-16 14:49:29,615 | INFO | Loading model from /mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct
+2026-06-16 14:49:34,182 | INFO | Processing 3 prompts at layer 20
+2026-06-16 14:49:35,416 | INFO | Processed prompt safety_refusal_001
+2026-06-16 14:49:36,052 | INFO | Processed prompt safety_refusal_002
+2026-06-16 14:49:36,685 | INFO | Processed prompt safety_medical_001
+2026-06-16 14:49:36,695 | INFO | Wrote outputs to /mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_144438_day1_nla
+2026-06-16 14:49:37,856 | ERROR | Missing NLA AV checkpoint: /mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av. Expected released checkpoint kitft/nla-qwen2.5-7b-L20-av, but no local copy was found. Download requires explicit approval.
+2026-06-16 14:49:37,936 | INFO | Wrote /mnt/20t/xuxin/mech_interp_comparison/reports/day1_nla_smoke_test_report.md
+2026-06-16 15:38:34,955 | INFO | Loading AV tokenizer from /mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av
+2026-06-16 15:38:36,026 | INFO | Loading AV model from /mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av
+2026-06-16 15:38:44,933 | INFO | Generated fallback AV explanation for safety_refusal_001
+2026-06-16 15:38:48,342 | INFO | Generated fallback AV explanation for safety_refusal_002
+2026-06-16 15:38:51,803 | INFO | Generated fallback AV explanation for safety_medical_001
+2026-06-16 15:38:51,804 | INFO | Wrote fallback AV outputs to /mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_144438_day1_nla
+2026-06-16 15:39:39,390 | INFO | Loading AR critic from /mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar
+2026-06-16 15:40:14,015 | INFO | Scored AR reconstruction for safety_refusal_001 with status ok
+2026-06-16 15:40:14,037 | INFO | Scored AR reconstruction for safety_refusal_002 with status ok
+2026-06-16 15:40:14,058 | INFO | Scored AR reconstruction for safety_medical_001 with status ok
+2026-06-16 15:42:44,256 | INFO | Wrote /mnt/20t/xuxin/mech_interp_comparison/reports/day1_nla_smoke_test_report.md

@@ -1,0 +1,57 @@
+2026-06-16 15:48:43,402 | INFO | Loading tokenizer from /mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct
+2026-06-16 15:48:44,111 | INFO | Loading model from /mnt/20t/xuhaoming/models/Qwen2.5-7B-Instruct
+2026-06-16 15:48:48,877 | INFO | Processing 16 prompts at layer 20
+2026-06-16 15:48:50,647 | INFO | Processed prompt safety_refusal_001
+2026-06-16 15:48:51,570 | INFO | Processed prompt safety_refusal_002
+2026-06-16 15:48:52,484 | INFO | Processed prompt safety_medical_001
+2026-06-16 15:48:53,401 | INFO | Processed prompt safety_medical_002
+2026-06-16 15:48:54,314 | INFO | Processed prompt bias_stereotype_001
+2026-06-16 15:48:55,123 | INFO | Processed prompt bias_stereotype_002
+2026-06-16 15:48:55,750 | INFO | Processed prompt bias_stereotype_003
+2026-06-16 15:48:56,375 | INFO | Processed prompt bias_stereotype_004
+2026-06-16 15:48:57,002 | INFO | Processed prompt sycophancy_001
+2026-06-16 15:48:57,430 | INFO | Processed prompt sycophancy_002
+2026-06-16 15:48:57,833 | INFO | Processed prompt sycophancy_003
+2026-06-16 15:48:58,213 | INFO | Processed prompt sycophancy_004
+2026-06-16 15:48:58,843 | INFO | Processed prompt eval_awareness_001
+2026-06-16 15:48:59,471 | INFO | Processed prompt eval_awareness_002
+2026-06-16 15:49:00,100 | INFO | Processed prompt eval_awareness_003
+2026-06-16 15:49:00,728 | INFO | Processed prompt safety_privacy_001
+2026-06-16 15:49:00,785 | INFO | Wrote outputs to /mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_154836_nla16_fallback
+2026-06-16 15:49:08,405 | INFO | Loading AV tokenizer from /mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av
+2026-06-16 15:49:09,501 | INFO | Loading AV model from /mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-av
+2026-06-16 15:49:18,596 | INFO | Generated fallback AV explanation for safety_refusal_001
+2026-06-16 15:49:22,065 | INFO | Generated fallback AV explanation for safety_refusal_002
+2026-06-16 15:49:25,613 | INFO | Generated fallback AV explanation for safety_medical_001
+2026-06-16 15:49:29,133 | INFO | Generated fallback AV explanation for safety_medical_002
+2026-06-16 15:49:32,655 | INFO | Generated fallback AV explanation for bias_stereotype_001
+2026-06-16 15:49:36,201 | INFO | Generated fallback AV explanation for bias_stereotype_002
+2026-06-16 15:49:39,671 | INFO | Generated fallback AV explanation for bias_stereotype_003
+2026-06-16 15:49:43,241 | INFO | Generated fallback AV explanation for bias_stereotype_004
+2026-06-16 15:49:46,778 | INFO | Generated fallback AV explanation for sycophancy_001
+2026-06-16 15:49:50,223 | INFO | Generated fallback AV explanation for sycophancy_002
+2026-06-16 15:49:53,770 | INFO | Generated fallback AV explanation for sycophancy_003
+2026-06-16 15:49:57,184 | INFO | Generated fallback AV explanation for sycophancy_004
+2026-06-16 15:50:00,653 | INFO | Generated fallback AV explanation for eval_awareness_001
+2026-06-16 15:50:04,305 | INFO | Generated fallback AV explanation for eval_awareness_002
+2026-06-16 15:50:07,835 | INFO | Generated fallback AV explanation for eval_awareness_003
+2026-06-16 15:50:11,497 | INFO | Generated fallback AV explanation for safety_privacy_001
+2026-06-16 15:50:11,499 | INFO | Wrote fallback AV outputs to /mnt/20t/xuxin/mech_interp_comparison/outputs/nla/20260616_154836_nla16_fallback
+2026-06-16 15:50:16,897 | INFO | Loading AR critic from /mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar
+2026-06-16 15:50:56,249 | INFO | Scored AR reconstruction for safety_refusal_001 with status ok
+2026-06-16 15:50:56,273 | INFO | Scored AR reconstruction for safety_refusal_002 with status ok
+2026-06-16 15:50:56,296 | INFO | Scored AR reconstruction for safety_medical_001 with status ok
+2026-06-16 15:50:56,320 | INFO | Scored AR reconstruction for safety_medical_002 with status ok
+2026-06-16 15:50:56,342 | INFO | Scored AR reconstruction for bias_stereotype_001 with status ok
+2026-06-16 15:50:56,365 | INFO | Scored AR reconstruction for bias_stereotype_002 with status ok
+2026-06-16 15:50:56,387 | INFO | Scored AR reconstruction for bias_stereotype_003 with status ok
+2026-06-16 15:50:56,409 | INFO | Scored AR reconstruction for bias_stereotype_004 with status ok
+2026-06-16 15:50:56,430 | INFO | Scored AR reconstruction for sycophancy_001 with status ok
+2026-06-16 15:50:56,451 | INFO | Scored AR reconstruction for sycophancy_002 with status ok
+2026-06-16 15:50:56,472 | INFO | Scored AR reconstruction for sycophancy_003 with status ok
+2026-06-16 15:50:56,492 | INFO | Scored AR reconstruction for sycophancy_004 with status ok
+2026-06-16 15:50:56,513 | INFO | Scored AR reconstruction for eval_awareness_001 with status ok
+2026-06-16 15:50:56,534 | INFO | Scored AR reconstruction for eval_awareness_002 with status ok
+2026-06-16 15:50:56,555 | INFO | Scored AR reconstruction for eval_awareness_003 with status ok
+2026-06-16 15:50:56,575 | INFO | Scored AR reconstruction for safety_privacy_001 with status ok
+2026-06-16 15:50:57,654 | INFO | Wrote /mnt/20t/xuxin/mech_interp_comparison/reports/day1_nla_16prompt_fallback_report.md

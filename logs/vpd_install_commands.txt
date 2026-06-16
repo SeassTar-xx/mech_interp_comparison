@@ -1,0 +1,6 @@
+# VPD install commands
+2026-06-16T18:29:31+08:00
+source /mnt/20t/xuxin/mech_interp_comparison/scripts/setup_env.sh >/dev/null
+export HOME=/mnt/20t/xuxin/mech_interp_comparison/tmp/vpd-home
+export PARAM_DECOMP_OUT_DIR=/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out
+/mnt/8t/xhm/miniconda3/envs/EasyEdit1/bin/python -m pip install --dry-run --target /mnt/20t/xuxin/mech_interp_comparison/env/vpd_pydeps -e /mnt/20t/xuxin/mech_interp_comparison/repos/param-decomp

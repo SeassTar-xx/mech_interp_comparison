@@ -1,0 +1,13 @@
+python=/mnt/8t/xhm/miniconda3/envs/EasyEdit1/bin/python
+python_version=3.10.20
+torch=2.11.0+cu130
+cuda_available=True
+HF_HOME=/mnt/20t/xuxin/mech_interp_comparison/.cache/huggingface
+HF_HUB_CACHE=/mnt/20t/xuxin/mech_interp_comparison/.cache/huggingface/hub
+TRANSFORMERS_CACHE=/mnt/20t/xuxin/mech_interp_comparison/.cache/huggingface/transformers
+HF_DATASETS_CACHE=/mnt/20t/xuxin/mech_interp_comparison/.cache/huggingface/datasets
+TORCH_HOME=/mnt/20t/xuxin/mech_interp_comparison/.cache/torch
+XDG_CACHE_HOME=/mnt/20t/xuxin/mech_interp_comparison/.cache/xdg
+TMPDIR=/mnt/20t/xuxin/mech_interp_comparison/tmp
+CUDA_VISIBLE_DEVICES=1
+PYTHONPATH=/mnt/20t/xuxin/mech_interp_comparison/env/nla_pydeps:/mnt/20t/xuxin/mech_interp_comparison/src:/mnt/20t/xuxin/mech_interp_comparison/repos/nla-inference:

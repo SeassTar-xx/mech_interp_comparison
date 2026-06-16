@@ -1,0 +1,12 @@
+{
+  "run_path": "goodfire/spd/s-55ea3f9b",
+  "wandb_api_key_set": false,
+  "ok": false,
+  "files": [],
+  "summary": {},
+  "error": {
+    "type": "UsageError",
+    "message": "No API key configured. Use `wandb login` to log in.",
+    "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 19, in <module>\n  File \"/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/lib/python3.13/site-packages/wandb/apis/public/api.py\", line 145, in __init__\n    self._auth = self._load_auth(base_url=self.settings[\"base_url\"])\n                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/lib/python3.13/site-packages/wandb/apis/public/api.py\", line 189, in _load_auth\n    auth = wbauth.authenticate_session(\n        host=base_url,\n    ...<2 lines>...\n        input_timeout=wandb_setup.singleton().settings.login_timeout,\n    )\n  File \"/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/lib/python3.13/site-packages/wandb/sdk/lib/wbauth/authenticate.py\", line 120, in authenticate_session\n    raise UsageError(\n        \"No API key configured. Use `wandb login` to log in.\"\n    ) from None\nwandb.errors.errors.UsageError: No API key configured. Use `wandb login` to log in.\n"
+  }
+}

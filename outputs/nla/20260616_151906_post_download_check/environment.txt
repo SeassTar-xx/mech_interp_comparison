@@ -1,0 +1,13 @@
+python=/mnt/8t/xhm/miniconda3/envs/EasyEdit1/bin/python
+python_version=3.10.20
+platform=Linux-6.8.0-101-generic-x86_64-with-glibc2.35
+HF_HOME=/mnt/20t/xuxin/mech_interp_comparison/.cache/huggingface
+HF_HUB_CACHE=/mnt/20t/xuxin/mech_interp_comparison/.cache/huggingface/hub
+TRANSFORMERS_CACHE=/mnt/20t/xuxin/mech_interp_comparison/.cache/huggingface/transformers
+HF_DATASETS_CACHE=/mnt/20t/xuxin/mech_interp_comparison/.cache/huggingface/datasets
+TORCH_HOME=/mnt/20t/xuxin/mech_interp_comparison/.cache/torch
+XDG_CACHE_HOME=/mnt/20t/xuxin/mech_interp_comparison/.cache/xdg
+TMPDIR=/mnt/20t/xuxin/mech_interp_comparison/tmp
+CUDA_VISIBLE_DEVICES=
+PYTHONPATH=/mnt/20t/xuxin/mech_interp_comparison/src
+nvidia_smi=0, NVIDIA A100-PCIE-40GB, 10 MiB, 40960 MiB, 0 % | 1, NVIDIA A100-PCIE-40GB, 13 MiB, 40960 MiB, 0 %

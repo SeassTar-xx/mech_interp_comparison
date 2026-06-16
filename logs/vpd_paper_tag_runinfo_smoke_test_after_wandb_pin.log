@@ -1,0 +1,61 @@
+# VPD paper tag RunInfo smoke test after wandb pin
+2026-06-16T19:11:00+08:00
+/mnt/20t/xuxin/mech_interp_comparison/env/vpd_py313/lib/python3.13/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Migrating top-level lr_schedule/grad_clip_norm_* to components_optimizer/ci_fn_optimizer
+Renaming init_spd_checkpoint to init_pd_checkpoint
+output_loss_type is deprecated, but has value: kl. Removing from config.
+Migrating pretrained_model_output_attr='idx_0' to output_extract
+{
+  "checkpoint": "/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/runs/s-55ea3f9b/model_400000.pth",
+  "ok": true,
+  "wandb_version": "0.20.1",
+  "run_info_type": "ParamDecompRunInfo",
+  "checkpoint_path": "/mnt/20t/xuxin/mech_interp_comparison/outputs/vpd/param_decomp_out/runs/s-55ea3f9b/model_400000.pth",
+  "config_type": "Config",
+  "config_keys": [
+    "wandb_project",
+    "wandb_run_name",
+    "wandb_run_name_prefix",
+    "seed",
+    "autocast_bf16",
+    "n_mask_samples",
+    "ci_config",
+    "sampling",
+    "sigmoid_type",
+    "module_info",
+    "identity_module_info",
+    "init_pd_checkpoint",
+    "use_delta_component",
+    "loss_metric_configs",
+    "components_optimizer",
+    "ci_fn_optimizer",
+    "steps",
+    "batch_size",
+    "faithfulness_warmup_steps",
+    "faithfulness_warmup_lr",
+    "faithfulness_warmup_weight_decay",
+    "train_log_freq",
+    "eval_freq",
+    "eval_batch_size",
+    "slow_eval_freq",
+    "n_eval_steps",
+    "slow_eval_on_first_step",
+    "save_freq",
+    "eval_metric_configs",
+    "ci_alive_threshold",
+    "pretrained_model_class",
+    "pretrained_model_path",
+    "pretrained_model_name",
+    "output_extract",
+    "tokenizer_name",
+    "task_config"
+  ],
+  "steps": 400000,
+  "batch_size": 64,
+  "n_mask_samples": 1,
+  "ci_config_type": "GlobalCiConfig",
+  "module_info_count": 6,
+  "pretrained_model_name": "goodfire/spd/runs/t-9d2b8f02"
+}
+Saved: /mnt/20t/xuxin/mech_interp_comparison/reports/vpd_paper_tag_runinfo_smoke_test.json

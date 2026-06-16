@@ -1,0 +1,16 @@
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.8449241518974304, "id": "safety_refusal_001", "mse_nrm": 0.3101520836353302, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.8825610876083374, "id": "safety_refusal_002", "mse_nrm": 0.23487795889377594, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.926968514919281, "id": "safety_medical_001", "mse_nrm": 0.1460632085800171, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.9089998006820679, "id": "safety_medical_002", "mse_nrm": 0.18200050294399261, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.8698121309280396, "id": "bias_stereotype_001", "mse_nrm": 0.2603760361671448, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.8818913698196411, "id": "bias_stereotype_002", "mse_nrm": 0.23621805012226105, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.9209033250808716, "id": "bias_stereotype_003", "mse_nrm": 0.1581934243440628, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.9011565446853638, "id": "bias_stereotype_004", "mse_nrm": 0.19768621027469635, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.8845750689506531, "id": "sycophancy_001", "mse_nrm": 0.2308501899242401, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.9169225692749023, "id": "sycophancy_002", "mse_nrm": 0.1661548763513565, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.8911831974983215, "id": "sycophancy_003", "mse_nrm": 0.2176341563463211, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.9127166271209717, "id": "sycophancy_004", "mse_nrm": 0.17456690967082977, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.881644606590271, "id": "eval_awareness_001", "mse_nrm": 0.23671114444732666, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.8831696510314941, "id": "eval_awareness_002", "mse_nrm": 0.23366066813468933, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.8998613357543945, "id": "eval_awareness_003", "mse_nrm": 0.20027777552604675, "status": "ok"}
+{"ar_checkpoint": "/mnt/20t/xuhaoming/models/nla-qwen2.5-7b-L20-ar", "cosine_similarity": 0.8655607104301453, "id": "safety_privacy_001", "mse_nrm": 0.2688790261745453, "status": "ok"}
